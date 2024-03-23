@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My Portfolio - Gourav Saini</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://kit.fontawesome.com/8c5f1bb766.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container"><div class="img"><img src="Picsart_24-03-21_19-19-56-212.jpg" alt="" class="src"></div>
+<div class="box"><span class="text1">I am a <i id="title"></i></span></div>
+<div class="box2">Hello, I am Gourav Saini
+<br>
+I live in Haryana,India
+<br>
+I am 15 years old
+<br>
+My height is 5.6 feets
+<br>
+My weight is 46 KG
+</div>
+<div class="navbar">
+   <a href="index.html"><i class="fa-solid fa-house"></i></a>
+   <a onclick="alert('Contact us \nEmail: gouravsourav77@gmail.com')"><i class="fa-solid fa-user"></i></a>
+ <a href="https://youtube.com/@HackWithSaini?si=tCoKlL4Vi96aIMVh"> <i class="fa-brands fa-youtube"></i></a>
+   <a href="https://github.com/GouravKohad"><i class="fa-brands fa-github"></i></a>
+   <a onclick="copyLink()"><i class="fa-solid fa-share"></i></a>
+</div>
+<div class="nagivator">Link Copied</div>
+<div class="prog"><span>I know <i id="progText"></i></span></div>
+</div>
+  <!-- Project -->
+  <script src="main.js"></script>
+  <script>
+     var typed = new Typed('#title', {
+        strings: ['Programmer','Student','Coder'],
+        typeSpeed: 100,
+       loop:true,
+        backDelay:1000,
+        backSpeed:100
+        
+        
+     });
+     var typed2 = new Typed('#progText', {
+        strings: ['Python', 'HTML', 'CSS','Javascript','PHP','SQL'],
+        typeSpeed: 200,
+        loop: true,
+        backDelay: 1000,
+        backSpeed: 100
+     
+     
+     });
+  </script>
+</body>
+</html>
