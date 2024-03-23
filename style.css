@@ -9,7 +9,7 @@
 /*font-family: "Truculenta", sans-serif;*/
 body {
     font-size: 15pt;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 *{
    margin: 0;
